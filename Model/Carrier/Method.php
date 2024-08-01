@@ -1,12 +1,21 @@
 <?php
 /**
- * Mavenbird Free Shipping Admin Extension
+ * Mavenbird Technologies Private Limited
  *
- * @category  Mavenbird
- * @package   Mavenbird_FreeShippingAdmin
- * @author    Mavenbird Team
- * @copyright Copyright (c) 2024 Mavenbird (https://www.mavenbird.com)
- * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://mavenbird.com/Mavenbird-Module-License.txt
+ *
+ * =================================================================
+ *
+ * @category   Mavenbird
+ * @package    Mavenbird_FreeShippingAdmin
+ * @author     Mavenbird Team
+ * @copyright  Copyright (c) 2018-2024 Mavenbird Technologies Private Limited ( http://mavenbird.com )
+ * @license    http://mavenbird.com/Mavenbird-Module-License.txt
  */
 declare(strict_types=1);
 

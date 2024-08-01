@@ -1,36 +1,29 @@
 {
     "name": "mavenbird/module-free-shipping-admin",
-    "description": "Free Shipping Admin Extension for Magento 2",
-    "keywords": ["Magento 2", "Free Shipping", "Shipping Method", "Admin Shipping"],
+    "description": "The Free Shipping Admin module enhances Magento 2's admin interface by providing administrators with advanced tools for configuring and managing free shipping options. This module simplifies the process of setting up promotional free shipping rules and conditions, streamlining shipping management and improving promotional flexibility within the admin panel.",
     "require": {
-        "php": "~7.3.0||~7.4.0||~8.1.0||~8.2.0||~8.3.0",
-        "magento/framework": "103.0.*",
-        "magento/module-backend": "102.0.*",
-        "magento/module-config": "101.2.*",
-        "magento/module-quote": "101.2.*",
-        "magento/module-shipping": "100.4.*",
-        "magento/module-store": "101.1.*"
+        "php": ">=8.0.0"
     },
     "type": "magento2-module",
-    "version": "2.4.4",
-     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
     ],
-     "autoload": {
-        "files": [ "registration.php" ],
-        "psr-4": {
-            "Mavenbird\\FreeShippingAdmin\\": ""
-        }
-    },
     "authors": [
         {
-            "name": "Mavenbird Team",
-            "homepage": "https://www.mavenbird.com/",
-            "email": "info@mavenbird.com"
+          "name": "Mavenbird",
+          "email": "support@mavenbird.com",
+          "homepage": "https://www.mavenbird.com",
+          "role": "Technical Support"
         }
     ],
-    "support": {
-        "email": "support@mavenbird.com"
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4":  { 
+            "Mavenbird\\FreeShippingAdmin\\": ""
+        }
     }
-}
+  }

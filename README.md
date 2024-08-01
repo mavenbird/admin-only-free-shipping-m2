@@ -1,52 +1,74 @@
-# [Mavenbird](https://www.mavenbird.com/) Free Shipping Admin Extension for Magento 2
+# Magento 2 Admin Category Product Link Module
+Enhance your Magento 2 store's shipping management with the FreeShippingAdmin Module. This module allows administrators to easily configure and manage free shipping options from the Magento admin panel, making it simpler to create promotional offers and optimize shipping strategies.
 
-## Overview
-The Free Shipping Admin extension brings a new free shipping method only for admin users (backend). The free shipping admin method can be only used for orders that will be created in Magento's admin panel. 
-Useful for pickup customers that their orders are free of shipping costs.
+## Key Features:
+- **Admin-Controlled Free Shipping:**
+ Easily configure free shipping rules and conditions directly from the Magento admin panel.
+- **Customizable Rules:**
+ Define specific conditions for free shipping, including minimum order amounts, product categories, or customer groups.
+- **Promotional Flexibility:**
+ Create promotional free shipping campaigns to drive sales and improve customer satisfaction.
+- **Compatibility:**
+ Compatible with Magento 2.4.X and supports PHP versions 8.1 to 8.3.
+- **Easy Installation:**
+ Install via composer for straightforward setup and updates.
+- **Update/Upgrade:**
+ Seamlessly update using composer and Magento CLI commands.
+- **Error Handling:**
+ Robust error handling to maintain stability and reliability.
 
-## Key Features
-	* Free shipping method available only for admin users (backend)
-	* Not visible in frontend
-	* Method name and title fully configurable
-	
-## Other Features
-	* Developed by a Magento Certified Developer
-	* Meets Magento standard development practices
-	* Simple installation
-	* 100% open source
+## Benefits:
+- **Streamlined Shipping Management:**
+ Simplify the process of setting up and managing free shipping offers and rules.
+- **Enhanced Promotional Capabilities:**
+ Drive sales with targeted free shipping promotions tailored to specific conditions.
+- **User-Friendly Interface:**
+ Manage free shipping options easily through Magento's intuitive admin interface.
+- **Support and Documentation:**
+ Comprehensive support available for installation, configuration, and troubleshooting.
 
-## Compatibility
-Magento Community Edition 2.4
+## Compatibility:
+This extension is compatible with Magento 2.4.X (PHP - 8.1 - 8.3) version.
 
-## Installing the Extension using an archive and FTP
-	* Backup your web directory and store database
-	* Download the extension
-		1. Sign in to your account
-		2. Navigate to menu My Account → My Downloads
-		3. Find the extension and click to download it
-	* Extract the downloaded ZIP file in a temporary directory
-	* Upload the extracted folders and files of the extension to base (root) Magento directory. Do not replace the whole folders, but merge them. If you have downloaded the extension from Magento Marketplace, then create the following folder path app/code/Mavenbird/FreeShippingAdmin and upload there the extracted folders and files.
-        * Connect via SSH to your Magento server as, or switch to, the Magento file system owner and run the following commands from the (root) Magento directory:
-            1. cd path_to_the_magento_root_directory 
-            2. php bin/magento maintenance:enable
-            3. php bin/magento module:enable Mavenbird_FreeShippingAdmin --clear-static-content
-            4. php bin/magento setup:upgrade
-            5. php bin/magento setup:di:compile
-            6. php bin/magento setup:static-content:deploy
-            7. php bin/magento maintenance:disable
-        * Log out from Magento admin and log in again
+## Installation:
+*Install via composer (recommend)* - 
 
-## Installing the Extension via composer
-	* Backup your web directory and store database
-    * Connect via SSH to your Magento server as, or switch to, the Magento file system owner and run the following commands from the (root) Magento directory:
-        1. cd path_to_the_magento_root_directory 
-        2. php bin/magento maintenance:enable
-        3. composer require mavenbird/module-free-shipping-admin
-        4. php bin/magento module:enable Mavenbird_FreeShippingAdmin --clear-static-content
-        5. php bin/magento setup:upgrade
-        6. php bin/magento setup:di:compile
-        7. php bin/magento setup:static-content:deploy
-        8. php bin/magento maintenance:disable
+Easy installation process with step-by-step instructions provided for hassle-free setup.
+~~~~~~~~~~~~~~~~~~~~~
+php bin/magento module:enable mavenbird/module-freeshippingadmin
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+php bin/magento cache:flush
+Manual Installation:
+Download the latest release from GitHub releases.
+~~~~~~~~~~~~~~~~~~~~~
 
-## Support
-If you need support or have any questions directly related to a [Mavenbird](https://www.mavenbird.com/) extension, please contact us at [support@mavenbird.com](mailto:support@mavenbird.com)
+## Upgrade/Update Module:
+Run the following command in Magento 2 root folder for easy update -
+~~~~~~~~~~~~~~~~~~~~~
+php bin/magento module:enable mavenbird/module-freeshippingadmin
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+php bin/magento cache:flush
+~~~~~~~~~~~~~~~~~~~~~
+
+## Customization Options:
+![img1](./doc/images/1.png)
+![img2](./doc/images/2.png)
+![img3](./doc/images/3.png)
+![img4](./doc/images/4.png)
+![img5](./doc/images/5.png)
+![img6](./doc/images/6.png)
+![img7](./doc/images/7.png)
+![img8](./doc/images/8.png)
+![img9](./doc/images/9.png)
+![img10](./doc/images/10.png)
+
+## Support:
+Dedicated support team available to assist with installation, customization, and any other queries or concerns.
+*[support@mavenbird.com](mailto:support@mavenbird.com)* 
+
+
+## Get Started:
+Optimize your store's shipping strategy with the Magento 2 FreeShippingAdmin Module. Easily manage and configure free shipping options to enhance customer experience and boost sales.
+*Thank you!*
