@@ -1,4 +1,4 @@
-# Magento 2 Admin Category Product Link Module
+# Magento 2 Free Shipping Admin Module
 Enhance your Magento 2 store's shipping management with the FreeShippingAdmin Module. This module allows administrators to easily configure and manage free shipping options from the Magento admin panel, making it simpler to create promotional offers and optimize shipping strategies.
 
 ## Key Features:
