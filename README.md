@@ -63,6 +63,7 @@ php bin/magento cache:flush
 ![img8](./doc/images/8.png)
 ![img9](./doc/images/9.png)
 ![img10](./doc/images/10.png)
+![img11](./doc/images/11.png)
 
 ## Support:
 Dedicated support team available to assist with installation, customization, and any other queries or concerns.
