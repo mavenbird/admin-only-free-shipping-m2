@@ -12,14 +12,14 @@
  * =================================================================
  *
  * @category   Mavenbird
- * @package    Mavenbird_FreeShippingAdmin
+ * @package    Mavenbird_AdminOnlyFreeShipping
  * @author     Mavenbird Team
  * @copyright  Copyright (c) 2018-2024 Mavenbird Technologies Private Limited ( http://mavenbird.com )
  * @license    http://mavenbird.com/Mavenbird-Module-License.txt
  */
 declare(strict_types=1);
 
-namespace Mavenbird\FreeShippingAdmin\Model\Carrier;
+namespace Mavenbird\AdminOnlyFreeShipping\Model\Carrier;
 
 use Magento\Backend\App\Area\FrontNameResolver;
 use Magento\Framework\App\Config\ScopeConfigInterface;

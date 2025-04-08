@@ -13,7 +13,7 @@
  * =================================================================
  *
  * @category   Mavenbird
- * @package    Mavenbird_FreeShippingAdmin
+ * @package    Mavenbird_AdminOnlyFreeShipping
  * @author     Mavenbird Team
  * @copyright  Copyright (c) 2018-2024 Mavenbird Technologies Private Limited ( http://mavenbird.com )
  * @license    http://mavenbird.com/Mavenbird-Module-License.txt
@@ -25,7 +25,7 @@
             <freeshippingadmin>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Mavenbird\FreeShippingAdmin\Model\Carrier\Method</model>
+                <model>Mavenbird\AdminOnlyFreeShipping\Model\Carrier\Method</model>
                 <name>Free</name>
                 <title>Free Shipping Admin</title>
                 <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>

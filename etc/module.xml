@@ -13,12 +13,12 @@
  * =================================================================
  *
  * @category   Mavenbird
- * @package    Mavenbird_FreeShippingAdmin
+ * @package    Mavenbird_AdminOnlyFreeShipping
  * @author     Mavenbird Team
  * @copyright  Copyright (c) 2018-2024 Mavenbird Technologies Private Limited ( http://mavenbird.com )
  * @license    http://mavenbird.com/Mavenbird-Module-License.txt
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Mavenbird_FreeShippingAdmin" setup_version="1.0.0" schema_version="1.0.0"/>
+    <module name="Mavenbird_AdminOnlyFreeShipping" setup_version="1.0.0" />
 </config>
