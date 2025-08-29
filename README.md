@@ -1,7 +1,7 @@
 # Magento 2 Free Shipping Admin Module
 Enhance your Magento 2 store's shipping management with the FreeShippingAdmin Module. This module allows administrators to easily configure and manage free shipping options from the Magento admin panel, making it simpler to create promotional offers and optimize shipping strategies.**
 
-*[DOWNLOAD NOW](https://www.mavenbird.com/admin-only-free-shipping-for-magento-2)*
+*[DEMO / DOWNLOAD](https://www.mavenbird.com/admin-only-free-shipping-for-magento-2)*
 
 ## Key Features:
 - **Admin-Controlled Free Shipping:**
