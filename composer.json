@@ -2,7 +2,8 @@
     "name": "mavenbird/module-free-shipping-admin",
     "description": "The Free Shipping Admin module enhances Magento 2's admin interface by providing administrators with advanced tools for configuring and managing free shipping options. This module simplifies the process of setting up promotional free shipping rules and conditions, streamlining shipping management and improving promotional flexibility within the admin panel.",
     "require": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "mavenbird/module-core": "*"
     },
     "type": "magento2-module",
     "version": "1.1.1",
