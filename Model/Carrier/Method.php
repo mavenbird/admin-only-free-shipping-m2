@@ -103,10 +103,11 @@ class Method extends AbstractCarrier implements CarrierInterface
      */
     protected function isAdmin(): bool
     {
-        if ($this->appState->getAreaCode() === FrontNameResolver::AREA_CODE) {
-            return true;
+        try {
+            return $this->appState->getAreaCode() === FrontNameResolver::AREA_CODE;
+        } catch (LocalizedException $e) {
+            return false;
         }
-        return false;
     }
 
     /**
@@ -122,18 +123,20 @@ class Method extends AbstractCarrier implements CarrierInterface
             return false;
         }
 
+        /** @var Result $result */
         $result = $this->rateResultFactory->create();
 
+        /** @var \Magento\Quote\Model\Quote\Address\RateResult\Method $method */
         $method = $this->rateMethodFactory->create();
 
-        $method->setCarrier('freeshippingadmin');
-        $method->setCarrierTitle($this->getConfigData('title'));
-
-        $method->setMethod('freeshippingadmin');
-        $method->setMethodTitle($this->getConfigData('name'));
-
-        $method->setPrice('0.00');
-        $method->setCost('0.00');
+        $method->setData([
+            'carrier' => $this->_code,
+            'carrier_title' => $this->getConfigData('title'),
+            'method' => $this->_code,
+            'method_title' => $this->getConfigData('name'),
+            'price' => '0.00',
+            'cost' => '0.00'
+        ]);
 
         $result->append($method);
 
